@@ -1,0 +1,5 @@
+1. Make model class
+2.Extend with model
+3.Use ScopedModel at a place to whose child in widget tree we would like to use ScopedModelDescendent
+4.Use Scoped Model at place where changes are required to be seen(no need of stateful or setState)
+5.Use notify listener in model so that ScopedModel using that class will allow it's descendents to have those changes seeb there.
